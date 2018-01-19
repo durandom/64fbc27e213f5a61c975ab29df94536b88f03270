@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "60a5ca57e3b88f71658110293407117d84177f0b77d9c1a85a9150ac23d45911"
+            "sha256": "3b18beaa37eae5f4cb2a5ce86d109a580a486ed3c88e788788b1c03b5ad3086e"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,6 +29,9 @@
         ]
     },
     "default": {
+        "0568780": {
+            "file": "https://github.com/s4w3d0ff/python-poloniex/archive/v0.4.7.zip"
+        },
         "bleach": {
             "hashes": [
                 "sha256:e67f46adcec78dbc3c04462f3aba3213a673d5652eba2609ed1ef15492a44b8d",
@@ -141,6 +144,7 @@
                 "sha256:fcc6d46f08c3c4de7b15ae1c426e15be1b7932bcda9d83ce1a4304e8c1129df3",
                 "sha256:51c158a6c8b899898d1c91c6b51a34110196815cc905f9be0fa5878e19355608"
             ],
+            "markers": "python_version >= '3.3'",
             "version": "==6.2.1"
         },
         "ipython-genutils": {
@@ -360,6 +364,12 @@
             ],
             "version": "==0.7.4"
         },
+        "poloniex": {
+            "hashes": [
+                "sha256:8ab6209810d87126e2a3a5b3737f77b002aae0748e804ebc69724981443a08d3"
+            ],
+            "version": "==0.0.13"
+        },
         "prompt-toolkit": {
             "hashes": [
                 "sha256:3f473ae040ddaa52b52f97f6b4a493cfa9f5920c255a12dc56a7d34397a398a4",
@@ -386,7 +396,6 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
-            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "pygments": {
@@ -624,6 +633,7 @@
                 "sha256:e721e53864f084f956f40f96124a74da0631ac13fbbd1ba99e8e2b5e9cafdf64",
                 "sha256:9515fe0a94e823fd90b08d22de45d7bde57c90edce705b22f5e1ecf7e1b653c8"
             ],
+            "markers": "python_version >= '3'",
             "version": "==0.30.0"
         },
         "widgetsnbextension": {
