@@ -1,0 +1,33 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+python-dotenv = "*"
+pandas = "*"
+jupyter = "*"
+matplotlib = "*"
+requests = "*"
+tensorflow = "*"
+jupyter-tensorboard = "*"
+keras = "*"
+"h5py" = "*"
+poloniex = "*"
+"0568780" = {file = "https://github.com/s4w3d0ff/python-poloniex/archive/v0.4.7.zip"}
+sklearn = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+pytest = "*"
+"autopep8" = "*"
+
+
+[requires]
+
+python_version = "3.6"
