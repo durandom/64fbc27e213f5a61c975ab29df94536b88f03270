@@ -14,11 +14,10 @@ matplotlib = "*"
 requests = "*"
 tensorflow = "*"
 jupyter-tensorboard = "*"
-keras = "*"
+Keras = "*"
 "h5py" = "*"
 poloniex = "*"
-"0568780" = {file = "https://github.com/s4w3d0ff/python-poloniex/archive/v0.4.7.zip"}
-sklearn = "*"
+scikit-learn = "*"
 
 
 [dev-packages]
