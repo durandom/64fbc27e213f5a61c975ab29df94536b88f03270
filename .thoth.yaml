@@ -1,0 +1,8 @@
+managers:
+  - name: update
+    configuration:
+      labels: [bot, kebechet]
+  - name: version
+    configuration:
+      labels: [bot, kebechet]
+      changelog_file: true
